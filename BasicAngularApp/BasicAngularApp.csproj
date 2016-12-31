@@ -76,12 +76,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BasicRoot.html" />
-    <Content Include="scripts\components\headerfrag.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="scripts\components\officefrag.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="scripts\AngularReferences.txt" />
+    <Content Include="scripts\components\hgAddContent.html" />
+    <Content Include="scripts\components\hgAddController.js" />
+    <Content Include="scripts\components\hgOfficeInfo.html" />
+    <Content Include="scripts\components\hgOfficeInfoController.js" />
+    <Content Include="scripts\components\hgPracticeLinks.html" />
+    <Content Include="scripts\components\hgPracticeLinksController.js" />
+    <Content Include="scripts\components\hgSectionTitle.html" />
+    <Content Include="scripts\components\hgSectionTitleController.js" />
+    <Content Include="scripts\directives\leaflet\angular-leaflet-directive.js" />
+    <Content Include="scripts\directives\leaflet\angular-leaflet-directive.min.js" />
+    <Content Include="scripts\directives\leaflet\angular-leaflet-directive.no-header.js" />
     <Content Include="Web.config" />
     <Content Include="WebRoot.html" />
   </ItemGroup>
@@ -89,7 +95,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="scripts\components\provider-template\" />
     <Folder Include="scripts\conrollers\" />
   </ItemGroup>
   <PropertyGroup>
